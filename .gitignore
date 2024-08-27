@@ -1,0 +1,12 @@
+/MHDF-Bot/target/
+/MHDF-Bot-PluginExample/target/
+/MHDF-Bot-BukkitHook/target/
+/MHDF-Bot-BungeeCordHook/target/
+/plugins
+
+*.iml
+*.jar
+/config.yml
+/lang.yml
+/Old/
+/tomcat.5835/

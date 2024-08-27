@@ -1,0 +1,4 @@
+#ws服务器设置
+WebSocketSettings:
+  #地址
+  Host: "ws://127.0.0.1:5835/ws"

@@ -1,0 +1,15 @@
+#OneBot设置
+OneBotSettings:
+  #地址
+  Host: "ws://127.0.0.1:3001/"
+  #http设置(用于读取数据)
+  HttpSettings:
+    #开关
+    Enable: true
+    #地址
+    Host: "http://127.0.0.1:3000/"
+
+#ws服务器设置
+WebSocketServerSettings:
+  #端口
+  Port: 5835

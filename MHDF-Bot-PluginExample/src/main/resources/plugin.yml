@@ -1,0 +1,4 @@
+name: MHDF-Bot-PluginExample
+version: 1.0.0
+main: cn.ChengZhiYa.MHDFBot_PluginExample.main
+author: [ ChengZhiYa ]

@@ -1,0 +1,5 @@
+name: MHDF-Bot-BukkitHook
+version: '${project.version}'
+main: cn.ChengZhiYa.MHDFBotBukkitHook.main
+api-version: '1.20'
+load: STARTUP
