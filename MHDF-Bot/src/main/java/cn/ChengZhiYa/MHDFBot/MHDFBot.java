@@ -30,7 +30,7 @@ public class MHDFBot {
         cn.ChengZhiYa.MHDFBot.api.MHDFBot.getScheduler().runTaskAsynchronously(WebSocket::startWebSocketServer);
         connectOneBotServer();
 
-        new HeartBeat().runTaskAsynchronouslyTimer(0L,1L);
+        new HeartBeat().runTaskAsynchronouslyTimer(0L, 1L);
 
         registerCommands();
         registerListeners();

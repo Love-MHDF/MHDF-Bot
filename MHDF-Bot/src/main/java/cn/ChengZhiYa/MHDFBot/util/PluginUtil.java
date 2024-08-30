@@ -31,7 +31,7 @@ public final class PluginUtil {
     @Getter
     static HashMap<PluginInfo, PluginStatus> pluginHashMap = new HashMap<>();
     @Getter
-    private static List<MHDFBotPlugin> botPluginList = new ArrayList<>();
+    private static final List<MHDFBotPlugin> botPluginList = new ArrayList<>();
 
     public static void loadPlugins() throws IOException {
         try (Stream<Path> paths = Files.list(pluginFolder)) {

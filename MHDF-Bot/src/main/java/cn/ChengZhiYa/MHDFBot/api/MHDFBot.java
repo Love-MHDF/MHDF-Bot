@@ -286,8 +286,8 @@ public final class MHDFBot {
                 URL url = new URL(ConfigUtil.getConfig().getString("OneBotSettings.HttpSettings.Host") + "get_stranger_info?user_id=" + targetId);
                 HttpURLConnection conn = (HttpURLConnection) url.openConnection();
                 conn.setRequestMethod("GET");
-                conn.setConnectTimeout(1000);
-                conn.setReadTimeout(1000);
+                conn.setConnectTimeout(5000);
+                conn.setReadTimeout(5000);
 
                 try (BufferedReader in = new BufferedReader(new InputStreamReader(conn.getInputStream()))) {
                     String response = in.readLine();
@@ -312,8 +312,8 @@ public final class MHDFBot {
                 URL url = new URL(ConfigUtil.getConfig().getString("OneBotSettings.HttpSettings.Host") + "get_friend_list");
                 HttpURLConnection conn = (HttpURLConnection) url.openConnection();
                 conn.setRequestMethod("GET");
-                conn.setConnectTimeout(1000);
-                conn.setReadTimeout(1000);
+                conn.setConnectTimeout(5000);
+                conn.setReadTimeout(5000);
 
                 try (BufferedReader in = new BufferedReader(new InputStreamReader(conn.getInputStream()))) {
                     String response = in.readLine();
@@ -342,8 +342,8 @@ public final class MHDFBot {
                 URL url = new URL(ConfigUtil.getConfig().getString("OneBotSettings.HttpSettings.Host") + "get_group_info?group_id=" + targetId);
                 HttpURLConnection conn = (HttpURLConnection) url.openConnection();
                 conn.setRequestMethod("GET");
-                conn.setConnectTimeout(1000);
-                conn.setReadTimeout(1000);
+                conn.setConnectTimeout(5000);
+                conn.setReadTimeout(5000);
 
                 try (BufferedReader in = new BufferedReader(new InputStreamReader(conn.getInputStream()))) {
                     String response = in.readLine();
@@ -368,8 +368,8 @@ public final class MHDFBot {
                 URL url = new URL(ConfigUtil.getConfig().getString("OneBotSettings.HttpSettings.Host") + "get_group_list");
                 HttpURLConnection conn = (HttpURLConnection) url.openConnection();
                 conn.setRequestMethod("GET");
-                conn.setConnectTimeout(1000);
-                conn.setReadTimeout(1000);
+                conn.setConnectTimeout(5000);
+                conn.setReadTimeout(5000);
 
                 try (BufferedReader in = new BufferedReader(new InputStreamReader(conn.getInputStream()))) {
                     String response = in.readLine();
@@ -398,8 +398,8 @@ public final class MHDFBot {
                 URL url = new URL(ConfigUtil.getConfig().getString("OneBotSettings.HttpSettings.Host") + "get_group_member_info?group_id=" + groupId + "&user_id=" + targetId);
                 HttpURLConnection conn = (HttpURLConnection) url.openConnection();
                 conn.setRequestMethod("GET");
-                conn.setConnectTimeout(1000);
-                conn.setReadTimeout(1000);
+                conn.setConnectTimeout(5000);
+                conn.setReadTimeout(5000);
 
                 try (BufferedReader in = new BufferedReader(new InputStreamReader(conn.getInputStream()))) {
                     String response = in.readLine();
@@ -424,8 +424,8 @@ public final class MHDFBot {
                 URL url = new URL(ConfigUtil.getConfig().getString("OneBotSettings.HttpSettings.Host") + "get_group_member_list?group_id=" + targetId);
                 HttpURLConnection conn = (HttpURLConnection) url.openConnection();
                 conn.setRequestMethod("GET");
-                conn.setConnectTimeout(1000);
-                conn.setReadTimeout(1000);
+                conn.setConnectTimeout(5000);
+                conn.setReadTimeout(5000);
 
                 try (BufferedReader in = new BufferedReader(new InputStreamReader(conn.getInputStream()))) {
                     String response = in.readLine();

@@ -7,6 +7,6 @@ import com.alibaba.fastjson2.JSONObject;
 public final class HeartBeat extends MHDFBotRunnable {
     @Override
     public void run() {
-        WebSocket.send("heartBeat",new JSONObject());
+        WebSocket.send("heartBeat", new JSONObject());
     }
 }
