@@ -3,9 +3,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>cn.ChengZhiYa</groupId>
+    <parent>
+        <groupId>cn.ChengZhiYa</groupId>
+        <artifactId>MHDFBot</artifactId>
+        <version>1.0.1</version>
+    </parent>
+
     <artifactId>MHDF-Bot</artifactId>
-    <version>1.0.1</version>
     <name>MHDF-Bot</name>
 
     <properties>
