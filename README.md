@@ -33,7 +33,7 @@ _✨轻量,便携,安全,高效,稳定✨_
 ## 官方插件
 
 <div>
-    <a href="https://github.com/Love-MHDF/MHDFBot-BindQQ">梦之Q绑</a>
+    <a href="https://github.com/Love-MHDF/MHDFBot-BindQQ">梦之Q绑</a> <a href="https://github.com/MHDFCraft/MHDFBot-Marry">梦之结婚(群老婆)</a>
 </div>
 
 ## 贡献者
